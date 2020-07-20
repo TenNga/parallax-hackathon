@@ -12,7 +12,7 @@ var scene = document.getElementById('mask-scene');
 var maskScene = new Parallax(scene);
 maskScene.invert(true);
 //change the speed of movement (x,y)
-maskScene.scalar(500,500);
+maskScene.scalar(100,500);
 
 var scene = document.getElementById("kobe");
 var kobeScene = new Parallax(scene);

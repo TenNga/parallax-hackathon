@@ -4,17 +4,23 @@
 
 .title {
     position: absolute;
-    top: 1rem !important;
-    left: 5rem;
-    font-size: 10rem;
+    margin-left: 5vw;
+    font-size: 8vw;
     color: aliceblue;
     z-index: 2;
 }
 
+.covid-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background: url(./img/corona-virus-4932576_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .covid-bg {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 0;
     object-fit: cover;
     width: 100vw;
@@ -22,49 +28,48 @@
 }
 
 .single-lg-virus {
-    position: absolute !important;
-    top: 7rem !important;
-    left: 45rem !important;
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 40vw;
     z-index: 3;
     width: 40%;
 }
 
 .single-md-virus {
-    position: absolute !important;
-    top: 8rem !important;
-    left: 90rem !important;
+    position: absolute;
+    margin-left: 70vw;
     z-index: 2;
     width: 20%;
 }
 
 .single-md1-virus {
     position: absolute;
-    top: 20rem !important;
-    left: 25rem !important;
+    margin-left: 20vw;
+    margin-top: 30vh;
     z-index: 2;
     width: 20%;
 }
 
 .single-sm-virus {
     position: absolute;
-    top: 10rem !important;
-    left: 40rem !important;
+    margin-top: 50vh;
+    margin-left: 40vw;
     z-index: 1;
     width: 10%;
 }
 
 .single-sm2-virus {
     position: absolute;
-    top: 45rem !important;
-    left: 90rem !important;
+    margin-top: 60vh;
+    margin-left: 80vw;
     z-index: 1;
     width: 8%;
 }
 
 .single-sm3-virus {
     position: absolute;
-    top: 15rem !important;
-    left: 20rem !important;
+    margin-top: 80vh;
+    margin-left: 20vw;
     z-index: 1;
     width: 5%;
 }
@@ -79,13 +84,17 @@
     object-fit: cover;
 }
 
-.safety {
+.kobe-container {
+    background: url(./img/kobe/googleSlide.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
-    top: 100vh;
-    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.safety-title {
+.kobe-title {
     position: absolute;
     top: 7rem !important;
     left: 4rem !important;
@@ -98,73 +107,72 @@
 
 .faceback {
     position: absolute;
-    top: 57vh !important;
-    bottom: 0;
-    left: 30rem !important;
-    width: 76%;
+    margin-top: 30vh;
+    margin-left: 1vw;
+    width: 30%;
 }
 
 .kobe-daughter {
     position: absolute;
-    top: 23rem !important;
-    left: 62rem !important;
-    width: 40%;
+    margin-top: 54vh;
+    margin-left: 28vw;
+    width: 14%;
     opacity: 0.1;
 }
 .kobe-daughter2 {
     position: absolute;
-    top: 22rem !important;
-    left: 63rem !important;
-    width: 50%;
+    margin-top: 52vh;
+    margin-left: 30vw;
+    width: 15%;
     opacity: 0.3;
 }
 .kobe-daughter3 {
     position: absolute;
-    top: 20rem !important;
-    left: 64rem !important;
-    width: 60%;
+    margin-top: 50vh;
+    margin-left: 32vw;
+    width: 16%;
     opacity: 0.5;
 }
 .kobe-daughter4 {
     position: absolute;
-    top: 18rem !important;
-    left: 65rem !important;
-    width: 70%;
+    margin-top: 48vh;
+    margin-left: 34vw;
+    width: 17%;
     opacity: 0.6;
 }
 .kobe-daughter5 {
     position: absolute;
-    top: 17rem !important;
-    left: 66rem !important;
-    width: 80%;
+    margin-top: 46vh;
+    margin-left: 36vw;
+    width: 18%;
     opacity: 0.8;
 }
 
 .kobe-daughter6 {
     position: absolute;
-    top: 15rem !important;
-    left: 68rem !important;
-    width: 90%;
+    margin-top: 44vh;
+    margin-left: 38vw;
+    width: 19%;
     opacity: 0.9;
 }
 .kobe-daughter7 {
     position: absolute;
-    top: 13rem !important;
-    left: 70rem !important;
-    width: 100%;
+    margin-top: 42vh;
+    margin-left: 40vw;
+    width: 20%;
 }
 
 .ball {
     position: absolute;
-    top: 10rem !important;
-    left: 50rem !important;
-    width: 30%;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    width: 10%;
 }
 
 .kobe-shot {
     position: absolute;
-    top: 20rem !important;
-    left: 50rem !important;
+    margin-top: 15vh;
+    margin-left: 10vw5
 }
 
 /* Slide/page about Black Live Matter*/
