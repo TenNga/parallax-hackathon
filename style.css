@@ -74,21 +74,10 @@
     width: 5%;
 }
 
-.safety-bg {
-    /* position: absolute;
-    top: 100vh;
-    left: 0; */
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-}
-
 .kobe-container {
     background: url(./img/kobe/googleSlide.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -99,7 +88,7 @@
     top: 7rem !important;
     left: 4rem !important;
     z-index: 2;
-    font-size: 10rem;
+    font-size: 8vw;
     color: cadetblue;
 }
 
@@ -178,95 +167,91 @@
 /* Slide/page about Black Live Matter*/
 
 .black-live {
-    position: absolute;
-    top: 200vh;
-}
-
-.blm-bg, .fire-bg{
+    background: url(./img/blm/wp6544298.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-}
-
-.blm-bg {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
 }
 
 .blm-title {
+    padding-left: 10rem;
+    padding-top: 10rem;
     position: absolute;
-    top: 7rem !important;
-    left: 4rem !important;
     z-index: 2;
-    font-size: 8rem;
+    font-size: 8vw;
     color: lavender;
 }
 
 .banner-BLM {
-    position: absolute;
-    top: 20rem !important;
-    left: 60rem !important;
+    margin-left: 50vw;
+    margin-top: 60vh;
+    width: 20%;
 }
 
 .art-GF {
-    position: absolute;
-    top: 20rem !important;
-    left: 40rem !important;
+    margin-left: 45vw;
+    margin-top: 50vh;
+    width: 20%;
 }
 
 .real-GF {
-    position: absolute;
-    top: 20rem !important;
-    left: 10rem !important;
+    margin-top: 20vh;
+    margin-left: 40vw;
+    width: 30%;
+
 }
 
 /* Third Page/slide about Australia Fire */
 
 .fire {
-    position: absolute;
-    top: 300vh;
+    background: url(./img/fire/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 .fire-title {
     position: absolute;
-    top: 7rem !important;
-    left: 4rem !important;
+    padding-left: 10rem;
+    padding-top: 10rem;
     z-index: 2;
-    font-size: 8rem;
+    font-size: 8vw;
     color: orangered;
 }
 
 .kangaroo {
     position: absolute;
-    top: 10rem !important;
-    left: 50rem !important;
-    width: 40%;
+    margin-top: 20vh;
+    margin-left: 70vw;
+    width: 20%;
 }
 
 .koala {
     position: absolute;
-    top: 30rem !important;
-    left: 20rem !important;
-    width: 40%;
+    margin-top: 40vh;
+    margin-left: 50vw;
+    width: 20%;
 }
 
 .fire-live {
     position: absolute;
-    top: 45rem !important;
-    left: 10rem !important;
+    margin-top: 70vh;
+    margin-left: 5vw;
     width: 80%;
 }
 
 .fire-live2 {
     position: absolute;
-    top: 45rem !important;
-    left: 50rem !important;
+    margin-top: 60vh;
+    margin-left: 15vw;
     width: 80%;
 }
 
 .fire-live3 {
     position: absolute;
-    top: 45rem !important;
-    left: 80rem !important;
+    margin-top: 65vh;
+    margin-left: 25vw;
     width: 80%;
 }

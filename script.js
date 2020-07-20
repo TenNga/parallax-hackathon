@@ -29,8 +29,8 @@ fireScene.scalar(100,100);
 
 var scene = document.getElementById('fire-container');
 var fireLineScene = new Parallax(scene);
-fireLineScene.invert(true,true);
-fireLineScene.scalar(600,100);
+fireLineScene.invert(false, false);
+fireLineScene.scalar(100,10);
 
 
 console.log("testingingingin")
